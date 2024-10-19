@@ -5,11 +5,16 @@ function circle(diam: number): string {
   return 'The circumference is ' + Math.PI * diam;
 }
 ```
-- Function can have returntype
-- Function params canhave types
-
+- Function can have return type
+```
+```
+- Function params can  have types
+```
+```
 
 - optional parameters
+```
+```
 
 - Function signature
 ```

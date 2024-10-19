@@ -14,6 +14,10 @@ let mixedArray: any[] = [];
 // union type decleration
 let multiTypeArray: (string | number)[] = [2, 3, "jain"];
 
+// union with leteral
+let literalTypeArray: (string | number | "lol")[] = [2, 3, "jain", "lol"];
+
+
 // automatic inference of types
 let person = ['Danny', 1, true];
 
@@ -21,5 +25,5 @@ let person = ['Danny', 1, true];
 // Tuple [strict array]
 let human: [string, number, boolean] = ['Danny', 1, true];
 
-/// Objects ///
-
+// another way to define array
+let mobileNo: Array<number> = [4545, 55, 44, 55, 66,]
